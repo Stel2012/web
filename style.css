@@ -46,4 +46,22 @@ body {
 }
 .title_photo{
     text-align: center;
+    color: rgb(43, 23, 156);
+    font-weight: bold;
+}
+.button_js{
+    text-align: center;
+}
+#myButton{
+    border: none;
+    border-radius: 15px;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(43, 23, 156);
+    color: wheat;
+    font-weight: bolder;
+}
+#clc_img{
+    width: 500px;
+    margin-top: 10px;
 }
