@@ -52,7 +52,7 @@ body {
 .button_js{
     text-align: center;
 }
-#myButton{
+#myButton, .btn_reg{
     border: none;
     border-radius: 15px;
     width: 150px;
@@ -67,4 +67,23 @@ body {
 }
 .index{
     text-align: center;
+}
+.btn_reg{
+    font-size: 120%;
+    margin-top: 10px;
+}
+.form{
+    color: blue;
+    width: 100%;
+    margin-bottom: 5px;
+}
+.row_reg{
+    text-align: center;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;  
+}
+.posts{
+    /* color: red;
+    width: 100%; */
 }
