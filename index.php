@@ -24,7 +24,7 @@
         <?php
         } else {
             // подключение к БД
-            $link = mysqli_connect('127.0.0.1', 'root', '123456', 'web');
+            $link = mysqli_connect('db', 'root', '123456', 'web');
 
             $sql = "SELECT * FROM posts";
             $res = mysqli_query($link, $sql);
